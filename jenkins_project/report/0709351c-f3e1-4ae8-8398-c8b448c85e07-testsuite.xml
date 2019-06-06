@@ -1,0 +1,62 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1559130541629" stop="1559130541707">
+  <name>scripts.test_login</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1559130541629" status="failed" stop="1559130541697">
+      <name>TestLogin.test_login_001</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;scripts.test_login.TestLogin object at 0x00000270AEA61278&gt;
+
+    def test_login_001(self):
+&gt;       assert 0
+E       assert 0
+
+scripts\test_login.py:4: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8416-MainThread"/>
+        <label name="host" value="DESKTOP-396DCCM"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1559130541698" status="failed" stop="1559130541705">
+      <name>TestLogin.test_login_002</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;scripts.test_login.TestLogin object at 0x00000270AEA9EC18&gt;
+
+    def test_login_002(self):
+&gt;       assert 0
+E       assert 0
+
+scripts\test_login.py:7: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8416-MainThread"/>
+        <label name="host" value="DESKTOP-396DCCM"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1559130541706" status="passed" stop="1559130541707">
+      <name>TestLogin.test_login_003</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8416-MainThread"/>
+        <label name="host" value="DESKTOP-396DCCM"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
